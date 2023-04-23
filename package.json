@@ -8,7 +8,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "build:lint": "npx eslint .",
+    "build:lint": "npx eslint",
+    "build:lint-fix": "npx eslint --fix --ext .tsx,.ts ./src",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
