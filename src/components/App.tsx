@@ -12,18 +12,14 @@ const useStyles = makeStyles(theme => ({
 const theme: Theme = createTheme({
   palette: {
     primary: {
-      main: "#0f1e3f",
-      contrastText: "#b9e2ea",
-    },
-    secondary: {
-      light: "#b9e2ea",
-      main: "#85f5f5",
-      dark: "#4aaebb",
-      contrastText: "#0f1e3f"
+      light: "#81A4CD",
+      main: "#3E7CB1",
+      dark: "#0F1E3F",
+      contrastText: "#DBE4EE",
     },
     warning: {
-      main: "#d25830",
-      contrastText: "#0f1e3f",
+      main: "#F17300",
+      contrastText: "#DBE4EE",
     }
   }
 });

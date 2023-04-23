@@ -7,7 +7,7 @@ import SignInButton from "./SignInButton";
 
 const useStyles = makeStyles((theme) => ({
   appbar: {
-    color: theme.palette.primary.main,
+    background: theme.palette.primary.dark,
     display: "flex",
   },
   button: {
