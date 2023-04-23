@@ -19,7 +19,7 @@ const theme: Theme = createTheme({
     },
     warning: {
       main: "#F17300",
-      contrastText: "#3E7CB1",
+      contrastText: "#DBE4EE",
     }
   }
 });
