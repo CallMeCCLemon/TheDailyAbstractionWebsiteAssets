@@ -1,9 +1,6 @@
 import { makeStyles, TextField, Typography } from "@material-ui/core";
 import React from "react";
 const useStyles = makeStyles((theme) => ({
-  splashText: {
-    color: theme.palette.primary.contrastText,
-  },
   "padding-md": {
     padding: theme.spacing(10),
   },
