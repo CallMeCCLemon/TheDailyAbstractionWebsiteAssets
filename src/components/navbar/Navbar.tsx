@@ -4,6 +4,7 @@ import React from "react";
 import { AppRoute } from "../AppRouter";
 import { NavLinkButton } from "./NavLinkButton";
 import SignInButton from "./SignInButton";
+import CreateButton from "./CreateButton";
 
 const useStyles = makeStyles((theme) => ({
   appbar: {
@@ -36,6 +37,7 @@ const Navbar: React.FC = () => {
             <NavLinkButton route={AppRoute.HOME} text={"Home"} />
             <NavLinkButton route={AppRoute.BLOG} text={"Blog"} />
             <NavLinkButton route={AppRoute.CONTACT} text={"Contact"} />
+            <CreateButton />
           </div>
           <SignInButton />
         </Grid>
