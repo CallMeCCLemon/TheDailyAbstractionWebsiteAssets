@@ -1,7 +1,8 @@
 import React from "react";
+import CreateBlog from "./blogContent/CreateBlog";
 
 const CreatePageSplash = () => {
-  return <div>CreatePageSplash</div>;
+  return <CreateBlog />;
 };
 
 export default CreatePageSplash;
