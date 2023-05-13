@@ -7,7 +7,7 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(10),
   },
 }));
-const CreateBlog: React.FC = () => {
+const CreateBlogInputForm: React.FC = () => {
   const classes = useStyles();
   return (
     <div className={classes.contentContainer}>
@@ -19,4 +19,4 @@ const CreateBlog: React.FC = () => {
   );
 };
 
-export default CreateBlog;
+export default CreateBlogInputForm;
