@@ -1,5 +1,5 @@
 import LandingPageSplash from "./LandingPageSplash";
-import CreatePageSplash from "./CreatePageSplash";
+import CreateBlogPage from "./CreateBlogPage";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Blog from "./blog/Blog";
 import Contact from "./Contact";
@@ -21,7 +21,7 @@ const AppRouter: React.FC = () => {
           <Route path={AppRoute.BLOG} element={<Blog />}></Route>
           <Route path={AppRoute.CONTACT} element={<Contact />}></Route>
           <Route path={AppRoute.HOME} element={<LandingPageSplash />}></Route>
-          <Route path={AppRoute.NEW} element={<CreatePageSplash />}></Route>
+          <Route path={AppRoute.NEW} element={<CreateBlogPage />}></Route>
         </Routes>
       </App>
     </Router>
